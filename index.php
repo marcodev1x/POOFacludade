@@ -94,6 +94,7 @@ foreach ($sistema->getVoos() as $voo) {
   $checkout1 = new Checkout($usuario1, $passagem1);
   $checkout2 = new Checkout($usuario2, $passagem2);
 
+  //Checkout
   echo PHP_EOL;
   $checkout1->realizarCheckout();
   $checkout2->realizarCheckout();
@@ -102,6 +103,11 @@ foreach ($sistema->getVoos() as $voo) {
   echo $voo1->getStatus();
 
   echo PHP_EOL;
+
+  echo "------------------------------------------------------------------------------------------" . PHP_EOL;
+
+
+  echo "------------------------------------------------------------------------------------------" . PHP_EOL;
 
   echo "------------------------------------------------------------------------------------------" . PHP_EOL;
 }
