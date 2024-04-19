@@ -1,0 +1,16 @@
+{
+    "name": "marco/study",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Marco\\Study\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marco Antônio Mendes dos Santos"
+        }
+    ],
+    "require": {}
+}
